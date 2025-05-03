@@ -9,6 +9,8 @@ Ubuntu系统用Cron实现的整点报时程序
 
 
 ~~~shell
+pacman -S mplayer
+
 # cutmp3
 sudo aptitude install cutmp3
 cutmp3 -i notification-6175.mp3 -a 0:01 -b 0:05 -O notification-6175s.mp3
