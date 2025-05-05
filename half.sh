@@ -1,5 +1,8 @@
 #! /bin/bash
 
+
+echo $(date)
+
 TIME=$(date +%H:%M)
 export XDG_RUNTIME_DIR="/run/user/1000"
 
